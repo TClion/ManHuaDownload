@@ -65,7 +65,7 @@ class ManHuaDownload():
             ImgList = []
             for i in src:
                 ImgList.append(i.get_attribute('src'))
-            broswer.close()
+            broswer.quit()
             self.SaveImg(title,ImgList)
             print(title+' '+'下载完成')
 
